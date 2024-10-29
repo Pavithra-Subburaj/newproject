@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Stack page validation
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 171.391 s - in Stack page validation
