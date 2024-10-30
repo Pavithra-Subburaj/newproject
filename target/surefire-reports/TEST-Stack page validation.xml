@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Stack page validation" time="171.391" tests="18" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Stack page validation" time="166.981" tests="18" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\pavit\eclipse-workspace\project\target\test-classes;C:\Users\pavit\eclipse-workspace\project\target\classes;C:\Users\pavit\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\pavit\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\pavit\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\pavit\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\pavit\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\pavit\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\pavit\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\pavit\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\pavit\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\pavit\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\pavit\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\pavit\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\pavit\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\pavit\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\pavit\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\pavit\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\pavit\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\pavit\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\pavit\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\pavit\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\pavit\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\pavit\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\pavit\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\pavit\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\pavit\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\pavit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\pavit\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\pavit\.m2\repository\io\codearte\jfairy\jfairy\0.5.9\jfairy-0.5.9.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\pavit\.m2\repository\org\yaml\snakeyaml\1.18\snakeyaml-1.18.jar;C:\Users\pavit\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\pavit\.m2\repository\com\google\inject\extensions\guice-assistedinject\4.1.0\guice-assistedinject-4.1.0.jar;C:\Users\pavit\.m2\repository\joda-time\joda-time\2.9.9\joda-time-2.9.9.jar;C:\Users\pavit\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\pavit\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\pavit\.m2\repository\org\iban4j\iban4j\3.2.1\iban4j-3.2.1.jar;C:\Users\pavit\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0.jar;C:\Users\pavit\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\pavit\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\pavit\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.0\log4j-api-2.24.0.jar;C:\Users\pavit\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.0\log4j-core-2.24.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\pavit\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\pavit\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\pavit\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\pavit\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\pavit\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\pavit\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\pavit\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\pavit\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\pavit\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\pavit\.m2\repository\io\cucumber\gherkin\29.0.0\gherkin-29.0.0.jar;C:\Users\pavit\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\pavit\.m2\repository\net\masterthought\cucumber-reporting\5.8.2\cucumber-reporting-5.8.2.jar;C:\Users\pavit\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\pavit\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\pavit\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\pavit\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.0\jackson-datatype-jsr310-2.17.0.jar;C:\Users\pavit\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-configuration2\2.10.1\commons-configuration2-2.10.1.jar;C:\Users\pavit\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\pavit\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\pavit\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\pavit\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\pavit\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\pavit\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.13\jcl-over-slf4j-2.0.13.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\pavit\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\pavit\.m2\repository\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\pavit\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\pavit\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;C:\Users\pavit\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\pavit\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\pavit\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\pavit\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\pavit\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\pavit\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\pavit\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\pavit\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\pavit\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\pavit\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\pavit\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\pavit\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\pavit\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.0\allure-cucumber7-jvm-2.29.0.jar;C:\Users\pavit\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\pavit\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\pavit\AppData\Local\Temp\surefire6145768005039258200\surefirebooter15627547383048050677.jar C:\Users\pavit\AppData\Local\Temp\surefire6145768005039258200 2024-10-29T18-03-59_548-jvmRun1 surefire6319110259568764992tmp surefire_06200064173805605687tmp"/>
+    <property name="sun.java.command" value="C:\Users\pavit\AppData\Local\Temp\surefire11292644618328590011\surefirebooter17094022762228940490.jar C:\Users\pavit\AppData\Local\Temp\surefire11292644618328590011 2024-10-30T09-21-13_338-jvmRun1 surefire16896878037494071029tmp surefire_05498657852532135161tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\pavit\eclipse-workspace\project\target\test-classes;C:\Users\pavit\eclipse-workspace\project\target\classes;C:\Users\pavit\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\pavit\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\pavit\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\pavit\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\pavit\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\pavit\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\pavit\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\pavit\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\pavit\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\pavit\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\pavit\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\pavit\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\pavit\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\pavit\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\pavit\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\pavit\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\pavit\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\pavit\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\pavit\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\pavit\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\pavit\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\pavit\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\pavit\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\pavit\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\pavit\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\pavit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\pavit\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\pavit\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\pavit\.m2\repository\io\codearte\jfairy\jfairy\0.5.9\jfairy-0.5.9.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\pavit\.m2\repository\org\yaml\snakeyaml\1.18\snakeyaml-1.18.jar;C:\Users\pavit\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\pavit\.m2\repository\com\google\inject\extensions\guice-assistedinject\4.1.0\guice-assistedinject-4.1.0.jar;C:\Users\pavit\.m2\repository\joda-time\joda-time\2.9.9\joda-time-2.9.9.jar;C:\Users\pavit\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\pavit\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\pavit\.m2\repository\org\iban4j\iban4j\3.2.1\iban4j-3.2.1.jar;C:\Users\pavit\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0.jar;C:\Users\pavit\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\pavit\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\pavit\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.0\log4j-api-2.24.0.jar;C:\Users\pavit\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.0\log4j-core-2.24.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\pavit\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\pavit\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\pavit\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\pavit\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\pavit\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\pavit\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\pavit\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\pavit\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\pavit\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\pavit\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\pavit\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\pavit\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\pavit\.m2\repository\io\cucumber\gherkin\29.0.0\gherkin-29.0.0.jar;C:\Users\pavit\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\pavit\.m2\repository\net\masterthought\cucumber-reporting\5.8.2\cucumber-reporting-5.8.2.jar;C:\Users\pavit\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\pavit\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\pavit\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\pavit\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.0\jackson-datatype-jsr310-2.17.0.jar;C:\Users\pavit\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-configuration2\2.10.1\commons-configuration2-2.10.1.jar;C:\Users\pavit\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\pavit\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\pavit\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\pavit\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\pavit\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\pavit\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.13\jcl-over-slf4j-2.0.13.jar;C:\Users\pavit\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\pavit\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\pavit\.m2\repository\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\pavit\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\pavit\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;C:\Users\pavit\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\pavit\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\pavit\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\pavit\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\pavit\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\pavit\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\pavit\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\pavit\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\pavit\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\pavit\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\pavit\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\pavit\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\pavit\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\pavit\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.0\allure-cucumber7-jvm-2.29.0.jar;C:\Users\pavit\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\pavit\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\pavit\AppData\Local\Temp\surefire6145768005039258200\surefirebooter15627547383048050677.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\pavit\AppData\Local\Temp\surefire11292644618328590011\surefirebooter17094022762228940490.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -58,8 +58,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Stack page validation using Get Started button" classname="Stack page validation" time="18.024">
-    <system-out><![CDATA[
+  <testcase name="Stack page validation using Get Started button" classname="Stack page validation" time="17.418">
+    <system-out><![CDATA[Oct 30, 2024 9:24:16 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+
+
 @test
 Scenario: Stack page validation using Get Started button         &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:4&amp#27;[0m
 browser value is: chrome
@@ -67,13 +70,13 @@ browser value is: chrome
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks the Getting Started button in Stack Panel&amp#27;[0m &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_the_getting_started_button_in_stack_panel()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be directed to &amp#27;[0m&amp#27;[32m&amp#27;[1m"Stack"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m               &amp#27;[90m# sd.DSAlgoStack_SD.the_user_should_be_directed_to_page(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:04:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:21:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Stack page validation using stack dropdown option" classname="Stack page validation" time="10.173">
+  <testcase name="Stack page validation using stack dropdown option" classname="Stack page validation" time="10.634">
     <system-out><![CDATA[
 @test
 Scenario: Stack page validation using stack dropdown option &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:9&amp#27;[0m
@@ -82,13 +85,13 @@ browser value is: chrome
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks Stack option in the dropdown&amp#27;[0m         &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_stack_option_in_the_dropdown()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be directed to &amp#27;[0m&amp#27;[32m&amp#27;[1m"Stack"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m          &amp#27;[90m# sd.DSAlgoStack_SD.the_user_should_be_directed_to_page(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:04:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:21:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Operations in stack link validation" classname="Stack page validation" time="8.023">
+  <testcase name="Operations in stack link validation" classname="Stack page validation" time="10.047">
     <system-out><![CDATA[
 @test
 Scenario: Operations in stack link validation                                        &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:14&amp#27;[0m
@@ -97,13 +100,13 @@ browser value is: chrome
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks Operations in stack link&amp#27;[0m                                      &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_operations_in_stack_link()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be directed to operations in stack page &amp#27;[0m&amp#27;[32m&amp#27;[1m"Operations in Stack"&amp#27;[0m &amp#27;[90m# sd.DSAlgoStack_SD.the_user_should_be_directed_to_operations_in_stack_page(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:04:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:21:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Operations in stack Try here button validation" classname="Stack page validation" time="11.494">
+  <testcase name="Operations in stack Try here button validation" classname="Stack page validation" time="9.714">
     <system-out><![CDATA[
 @test
 Scenario: Operations in stack Try here button validation &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:19&amp#27;[0m
@@ -113,13 +116,13 @@ browser value is: chrome
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks on Try here button&amp#27;[0m                &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_on_try_here_button()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user redirect to tryEditor page&amp#27;[0m               &amp#27;[90m# sd.DSAlgoStack_SD.the_user_redirect_to_try_editor_page()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:04:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:21:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Operations in stack Try Editor validation #1" classname="Stack page validation" time="14.003">
+  <testcase name="Operations in stack Try Editor validation #1" classname="Stack page validation" time="11.504">
     <system-out><![CDATA[
 @test
 Scenario Outline: Operations in stack Try Editor validation                                  &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:34&amp#27;[0m
@@ -131,13 +134,13 @@ browser value is: chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks run button scenario&amp#27;[0m                                                    &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_run_button_scenario()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is able to see the output sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Python"&amp#27;[0m&amp#27;[32m and rownumber &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                     &amp#27;[90m# sd.DSAlgoStack_SD.user_is_able_to_see_the_output_sheetname_and_rownumber(java.lang.String,java.lang.Integer)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:04:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:22:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Operations in stack Try Editor validation #2" classname="Stack page validation" time="12.199">
+  <testcase name="Operations in stack Try Editor validation #2" classname="Stack page validation" time="10.884">
     <system-out><![CDATA[
 @test
 Scenario Outline: Operations in stack Try Editor validation                                  &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:35&amp#27;[0m
@@ -149,13 +152,13 @@ browser value is: chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks run button scenario&amp#27;[0m                                                    &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_run_button_scenario()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is able to see the output sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Python"&amp#27;[0m&amp#27;[32m and rownumber &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                     &amp#27;[90m# sd.DSAlgoStack_SD.user_is_able_to_see_the_output_sheetname_and_rownumber(java.lang.String,java.lang.Integer)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:05:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:22:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Operations in stack Try Editor validation #3" classname="Stack page validation" time="10.193">
+  <testcase name="Operations in stack Try Editor validation #3" classname="Stack page validation" time="9.228">
     <system-out><![CDATA[
 @test
 Scenario Outline: Operations in stack Try Editor validation                                  &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:36&amp#27;[0m
@@ -167,13 +170,13 @@ browser value is: chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks run button scenario&amp#27;[0m                                                    &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_run_button_scenario()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is able to see the output sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Python"&amp#27;[0m&amp#27;[32m and rownumber &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m                     &amp#27;[90m# sd.DSAlgoStack_SD.user_is_able_to_see_the_output_sheetname_and_rownumber(java.lang.String,java.lang.Integer)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:05:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:22:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Implementation link validation" classname="Stack page validation" time="6.438">
+  <testcase name="Implementation link validation" classname="Stack page validation" time="7.53">
     <system-out><![CDATA[
 @test
 Scenario: Implementation link validation                                   &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:40&amp#27;[0m
@@ -182,13 +185,13 @@ browser value is: chrome
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks Implementation link&amp#27;[0m                                 &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_Implementation_link()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be directed to implementation page &amp#27;[0m&amp#27;[32m&amp#27;[1m"Implementation"&amp#27;[0m &amp#27;[90m# sd.DSAlgoStack_SD.the_user_should_be_directed_to_implementation_page(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:05:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:22:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Implementation Try here button validation" classname="Stack page validation" time="7.53">
+  <testcase name="Implementation Try here button validation" classname="Stack page validation" time="8.207">
     <system-out><![CDATA[
 @test
 Scenario: Implementation Try here button validation  &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:45&amp#27;[0m
@@ -198,13 +201,13 @@ browser value is: chrome
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks on Try here button&amp#27;[0m            &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_on_try_here_button()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user redirect to tryEditor page&amp#27;[0m           &amp#27;[90m# sd.DSAlgoStack_SD.the_user_redirect_to_try_editor_page()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:05:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:22:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Implementation Try Editor validation #1" classname="Stack page validation" time="8.58">
+  <testcase name="Implementation Try Editor validation #1" classname="Stack page validation" time="9.484">
     <system-out><![CDATA[
 @test
 Scenario: Implementation Try Editor validation                                               &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:61&amp#27;[0m
@@ -216,13 +219,13 @@ browser value is: chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks run button scenario&amp#27;[0m                                                    &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_run_button_scenario()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is able to see the output sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Python"&amp#27;[0m&amp#27;[32m and rownumber &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                     &amp#27;[90m# sd.DSAlgoStack_SD.user_is_able_to_see_the_output_sheetname_and_rownumber(java.lang.String,java.lang.Integer)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:05:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:22:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Implementation Try Editor validation #2" classname="Stack page validation" time="9.902">
+  <testcase name="Implementation Try Editor validation #2" classname="Stack page validation" time="9.445">
     <system-out><![CDATA[
 @test
 Scenario: Implementation Try Editor validation                                               &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:62&amp#27;[0m
@@ -234,13 +237,13 @@ browser value is: chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks run button scenario&amp#27;[0m                                                    &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_run_button_scenario()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is able to see the output sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Python"&amp#27;[0m&amp#27;[32m and rownumber &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                     &amp#27;[90m# sd.DSAlgoStack_SD.user_is_able_to_see_the_output_sheetname_and_rownumber(java.lang.String,java.lang.Integer)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:05:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:23:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Implementation Try Editor validation #3" classname="Stack page validation" time="9.196">
+  <testcase name="Implementation Try Editor validation #3" classname="Stack page validation" time="7.954">
     <system-out><![CDATA[
 @test
 Scenario: Implementation Try Editor validation                                               &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:63&amp#27;[0m
@@ -252,13 +255,13 @@ browser value is: chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks run button scenario&amp#27;[0m                                                    &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_run_button_scenario()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is able to see the output sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Python"&amp#27;[0m&amp#27;[32m and rownumber &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m                     &amp#27;[90m# sd.DSAlgoStack_SD.user_is_able_to_see_the_output_sheetname_and_rownumber(java.lang.String,java.lang.Integer)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:06:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:23:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Applications link validation" classname="Stack page validation" time="6.037">
+  <testcase name="Applications link validation" classname="Stack page validation" time="6.549">
     <system-out><![CDATA[
 @test
 Scenario: Applications link validation                                 &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:66&amp#27;[0m
@@ -267,13 +270,13 @@ browser value is: chrome
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks Applications link&amp#27;[0m                               &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_Applications_link()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be directed to Applications page &amp#27;[0m&amp#27;[32m&amp#27;[1m"Applications"&amp#27;[0m &amp#27;[90m# sd.DSAlgoStack_SD.the_user_should_be_directed_to_Applications_page(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:06:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:23:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Applications Try here button validation" classname="Stack page validation" time="7.597">
+  <testcase name="Applications Try here button validation" classname="Stack page validation" time="7.929">
     <system-out><![CDATA[
 @test
 Scenario: Applications Try here button validation    &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:71&amp#27;[0m
@@ -283,13 +286,13 @@ browser value is: chrome
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks on Try here button&amp#27;[0m            &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_on_try_here_button()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user redirect to tryEditor page&amp#27;[0m           &amp#27;[90m# sd.DSAlgoStack_SD.the_user_redirect_to_try_editor_page()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:06:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:23:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Applications Try Editor validat #1" classname="Stack page validation" time="8.645">
+  <testcase name="Applications Try Editor validat #1" classname="Stack page validation" time="9.241">
     <system-out><![CDATA[
 @test
 Scenario: Applications Try Editor validat                                                    &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:86&amp#27;[0m
@@ -301,13 +304,13 @@ browser value is: chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks run button scenario&amp#27;[0m                                                    &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_run_button_scenario()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is able to see the output sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Python"&amp#27;[0m&amp#27;[32m and rownumber &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                     &amp#27;[90m# sd.DSAlgoStack_SD.user_is_able_to_see_the_output_sheetname_and_rownumber(java.lang.String,java.lang.Integer)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:06:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:23:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Applications Try Editor validat #2" classname="Stack page validation" time="9.789">
+  <testcase name="Applications Try Editor validat #2" classname="Stack page validation" time="9.946">
     <system-out><![CDATA[
 @test
 Scenario: Applications Try Editor validat                                                    &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:87&amp#27;[0m
@@ -319,13 +322,13 @@ browser value is: chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks run button scenario&amp#27;[0m                                                    &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_run_button_scenario()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is able to see the output sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Python"&amp#27;[0m&amp#27;[32m and rownumber &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                     &amp#27;[90m# sd.DSAlgoStack_SD.user_is_able_to_see_the_output_sheetname_and_rownumber(java.lang.String,java.lang.Integer)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:06:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:23:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Applications Try Editor validat #3" classname="Stack page validation" time="7.696">
+  <testcase name="Applications Try Editor validat #3" classname="Stack page validation" time="7.796">
     <system-out><![CDATA[
 @test
 Scenario: Applications Try Editor validat                                                    &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:88&amp#27;[0m
@@ -337,25 +340,70 @@ browser value is: chrome
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks run button scenario&amp#27;[0m                                                    &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_run_button_scenario()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is able to see the output sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Python"&amp#27;[0m&amp#27;[32m and rownumber &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m                     &amp#27;[90m# sd.DSAlgoStack_SD.user_is_able_to_see_the_output_sheetname_and_rownumber(java.lang.String,java.lang.Integer)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:06:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:23:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>
-  <testcase name="Practice Questions link validation" classname="Stack page validation" time="5.872">
+  <testcase name="Practice Questions link validation" classname="Stack page validation" time="3.471">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Sign in&apos;]&quot;}&#10;  (Session info: chrome=130.0.6723.70)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e7d2d5931559996139bf1ad3ce9c8370, findElement {using=xpath, value=//*[text()=&apos;Sign in&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\pavit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e7d2d5931559996139bf1ad3ce9c8370" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Sign in']"}
+  (Session info: chrome=130.0.6723.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e7d2d5931559996139bf1ad3ce9c8370, findElement {using=xpath, value=//*[text()='Sign in']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\pavit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e7d2d5931559996139bf1ad3ce9c8370
+]]></error>
     <system-out><![CDATA[
 @test
 Scenario: Practice Questions link validation               &amp#27;[90m# src/test/resources/feat/DSAlgoStack.feature:91&amp#27;[0m
 browser value is: chrome
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user clicks Stack option in the dropdown&amp#27;[0m       &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_stack_option_in_the_dropdown()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Applications link&amp#27;[0m                    &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_Applications_link()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks Practice Questions link&amp#27;[0m             &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_practice_questions_link()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should redirect to Practice Questions page&amp#27;[0m &amp#27;[90m# sd.DSAlgoStack_SD.the_user_should_redirect_to_practice_questions_page()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Sign in']"}
+  (Session info: chrome=130.0.6723.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e7d2d5931559996139bf1ad3ce9c8370, findElement {using=xpath, value=//*[text()='Sign in']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\pavit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e7d2d5931559996139bf1ad3ce9c8370
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at pom.DSAlgoHomePom.click_Signin(DSAlgoHomePom.java:83)
+	at sd.DSAlgoStack_SD.setUP(DSAlgoStack_SD.java:43)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mThe user clicks Stack option in the dropdown&amp#27;[0m       &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_stack_option_in_the_dropdown()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mThe user clicks Applications link&amp#27;[0m                    &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_Applications_link()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mThe user clicks Practice Questions link&amp#27;[0m             &amp#27;[90m# sd.DSAlgoStack_SD.the_user_clicks_practice_questions_link()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user should redirect to Practice Questions page&amp#27;[0m &amp#27;[90m# sd.DSAlgoStack_SD.the_user_should_redirect_to_practice_questions_page()&amp#27;[0m
+
+    Embedding Practice_Questions_link_validation [image/png 322819 bytes]
+
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.69 (resolved driver for Chrome 130)
-[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.69\chromedriver.exe
-Oct 29, 2024 6:06:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+[pool-2-thread-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pavit\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+Oct 30, 2024 9:24:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
 ]]></system-err>
   </testcase>

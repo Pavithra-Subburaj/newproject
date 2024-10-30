@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Data Structure Introduction page validation
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 82.346 s - in Data Structure Introduction page validation
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 91.275 s - in Data Structure Introduction page validation

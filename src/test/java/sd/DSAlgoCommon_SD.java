@@ -15,6 +15,7 @@ import pom.DSAlgoDataStructurePom;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pom.DSAlgoGetStartedPom;
 import pom.DSAlgoHomePom;
+import pom.DSAlgoQueuePom;
 import pom.DSAlgoRegistrationPom;
 
 
@@ -27,6 +28,7 @@ public class DSAlgoCommon_SD {
 	public DSAlgoStackPom stakpage_obj;
 	public DSAlgoDataStructurePom datastructurepage_obj;
 	public DSAlgoRegistrationPom registrationpage_obj;
+	public DSAlgoQueuePom queuepage_obj;
 	
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
 
