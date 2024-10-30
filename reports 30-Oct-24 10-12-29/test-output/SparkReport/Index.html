@@ -1,0 +1,4247 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Oct 30, 2024 10:12:29 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@DataStructure</a><a class="dropdown-item" href="#">@main</a><a class="dropdown-item" href="#">@queue</a><a class="dropdown-item" href="#">@validCredentials</a><a class="dropdown-item" href="#">@Home_unsucesslogin</a><a class="dropdown-item" href="#">@Home_sucesslogin</a><a class="dropdown-item" href="#">@test</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Queue page validation</p>
+            <p class="text-sm">
+              <span>10:12:30 AM</span> / <span>00:04:18:646</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Queue page validation</h5>
+<span class='badge badge-success'>10.30.2024 10:12:30 AM</span>
+<span class='badge badge-danger'>10.30.2024 10:16:49 AM</span>
+<span class='badge badge-default'>00:04:18:646</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Queue page validation using Get Started button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoQueue_SD.the_user_is_in_home_page_with_sucessful_login()">
+                <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoQueue_SD.the_user_clicks_the_getting_started_button_in_queue_panel()">
+                <span>When The user clicks the Getting Started button in Queue Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoQueue_SD.the_user_should_be_directed_to_queue_page()">
+                <span>Then The user should be directed to Queue Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="63"><span class="badge log pass-bg mr-2">Pass</span>Queue page validation link land in correct page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="64"><span class="badge log pass-bg mr-2">Pass</span>Queue page validation link land in correct page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks "Implementation of Queue in Python" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user should be directed to  "Implementation of Queue in Python" page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="109"><span class="badge log pass-bg mr-2">Pass</span>Queue page validation link land in correct page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks "Implementation using collections.deque" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user should be directed to  "Implementation using collections.deque" page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="133"><span class="badge log pass-bg mr-2">Pass</span>Queue page validation link land in correct page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks "Implementation using array" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user should be directed to  "Implementation using array" page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="189"><span class="badge log pass-bg mr-2">Pass</span>Queue page validation link land in correct page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks "Queue Operations" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user should be directed to  "Queue Operations" page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="218"><span class="badge log pass-bg mr-2">Pass</span>Queue page validation link land in correct page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="219"><span class="badge log pass-bg mr-2">Pass</span>Queue page validation link land in correct page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks "Implementation of Queue in Python" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Practice Questions" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The Practice question page should be displayed</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="262"><span class="badge log pass-bg mr-2">Pass</span>Queue page validation link land in correct page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks "Implementation using collections.deque" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Practice Questions" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The Practice question page should be displayed</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="295"><span class="badge log pass-bg mr-2">Pass</span>Queue page validation link land in correct page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks "Implementation using array" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Practice Questions" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The Practice question page should be displayed</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="335"><span class="badge log pass-bg mr-2">Pass</span>Queue page validation link land in correct page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks "Queue Operations" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Practice Questions" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The Practice question page should be displayed</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="372"><span class="badge log pass-bg mr-2">Pass</span>Try here button validation</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="373"><span class="badge log pass-bg mr-2">Pass</span>Try here button validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Implementation of Queue in Python" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user is redirect to tryEditor page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="403"><span class="badge log pass-bg mr-2">Pass</span>Try here button validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Implementation using collections.deque" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user is redirect to tryEditor page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="437"><span class="badge log pass-bg mr-2">Pass</span>Try here button validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Implementation using array" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user is redirect to tryEditor page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="469"><span class="badge log pass-bg mr-2">Pass</span>Try here button validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Queue Operations" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user is redirect to tryEditor page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="510"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Implementation of Queue in Python</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="511"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Implementation of Queue in Python</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Implementation of Queue in Python" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code print sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button valid scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output in console sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="559"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Implementation of Queue in Python</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Implementation of Queue in Python" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code print sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button valid scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output in console sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="605"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Implementation of Queue in Python</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Implementation of Queue in Python" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code print sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button valid scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output in console sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="647"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Implementation using collections.deque</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="648"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Implementation using collections.deque</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Implementation using collections.deque" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code print sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button valid scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output in console sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="693"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Implementation using collections.deque</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Implementation using collections.deque" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code print sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button valid scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output in console sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="737"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Implementation using collections.deque</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Implementation using collections.deque" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code print sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button valid scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output in console sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="781"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Implementation using array</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="782"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Implementation using array</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Implementation using array" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code print sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button valid scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output in console sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="809"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Implementation using array</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Implementation using array" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code print sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button valid scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output in console sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="822"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Implementation using array</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Implementation using array" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code print sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button valid scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output in console sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="835"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Queue Operations</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="836"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Queue Operations</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Queue Operations" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code print sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button valid scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output in console sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="849"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Queue Operations</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Queue Operations" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code print sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button valid scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output in console sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="862"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation----Queue Operations</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user is in home page after successful login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given The user is in the Queue page after logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks "Queue Operations" Link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user clicks  Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code print sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button valid scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output in console sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Signin validation</p>
+            <p class="text-sm">
+              <span>10:12:30 AM</span> / <span>00:00:19:395</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Signin validation</h5>
+<span class='badge badge-success'>10.30.2024 10:12:30 AM</span>
+<span class='badge badge-danger'>10.30.2024 10:12:49 AM</span>
+<span class='badge badge-default'>00:00:19:395</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>login with valid credential</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="5"><span class="badge log pass-bg mr-2">Pass</span>login with valid credential</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on signin page url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters valid username "ninja4" into username field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters valid password "Tiger123@" into password field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user should successfully land in Data Structure Home Page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Home page validation</p>
+            <p class="text-sm">
+              <span>10:12:30 AM</span> / <span>00:03:48:624</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Home page validation</h5>
+<span class='badge badge-success'>10.30.2024 10:12:30 AM</span>
+<span class='badge badge-danger'>10.30.2024 10:16:19 AM</span>
+<span class='badge badge-default'>00:03:48:624</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Home page & Stack page validation using Get Started button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_the_getting_started_button_in_stack_panel()">
+                <span>When The user selects the Getting Started button in Stack Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Stack" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="70"><span class="badge log pass-bg mr-2">Pass</span>Home page & Stack page validation using dropdown option</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_stack_option_in_the_dropdown()">
+                <span>When The user selects Stack option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Stack" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="112"><span class="badge log pass-bg mr-2">Pass</span>Home page & Data Structure page validation using Get Started button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_getting_started_button_in_data_structures_introduction_panel()">
+                <span>When The user selects Getting Started button in Data Structures-Introduction panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Data Structures-Introduction" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="144"><span class="badge log pass-bg mr-2">Pass</span>Home page & Array page validation using Get Started button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_the_getting_started_button_in_array_panel()">
+                <span>When The user selects the Getting Started button in Array Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Array" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="175"><span class="badge log pass-bg mr-2">Pass</span>Home page & Array page validation using dropdown option</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_array_option_in_the_dropdown()">
+                <span>When The user selects Array option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Array" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="203"><span class="badge log pass-bg mr-2">Pass</span>Home page & Linked List page validation using Get Started button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_the_getting_started_button_in_linked_list_panel()">
+                <span>When The user selects the Getting Started button in Linked List Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Linked List" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="235"><span class="badge log pass-bg mr-2">Pass</span>Home page & Linked List page validation using dropdown option</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_linked_list_option_in_the_dropdown()">
+                <span>When The user selects Linked List option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Linked List" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="265"><span class="badge log pass-bg mr-2">Pass</span>Home page & Graph page validation using Get Started button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_the_getting_started_button_in_graph_panel()">
+                <span>When The user selects the Getting Started button in Graph Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Graph" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="292"><span class="badge log pass-bg mr-2">Pass</span>Home page & Graph page validation using dropdown option</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_graph_option_in_the_dropdown()">
+                <span>When The user selects Graph option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Graph" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="321"><span class="badge log pass-bg mr-2">Pass</span>Home page & Tree page validation using Get Started button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_the_getting_started_button_in_tree_panel()">
+                <span>When The user selects the Getting Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Tree" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="358"><span class="badge log pass-bg mr-2">Pass</span>Home page & Tree page validation using dropdown option</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_tree_option_in_the_dropdown()">
+                <span>When The user selects Tree option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Tree" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="386"><span class="badge log pass-bg mr-2">Pass</span>Home page & Queue page validation using Get Started button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_the_getting_started_button_in_queue_panel()">
+                <span>When The user selects the Getting Started button in Queue Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Queue" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="417"><span class="badge log pass-bg mr-2">Pass</span>Home page & Queue page validation using dropdown option</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_queue_option_in_the_dropdown()">
+                <span>When The user selects Queue option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_page(java.lang.String)">
+                <span>Then The user will be directed to "Queue" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="441"><span class="badge log pass-bg mr-2">Pass</span>Home page & Queue page validation using Get Started button without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_the_getting_started_button_in_queue_panel()">
+                <span>When The user selects the Getting Started button in Queue Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="459"><span class="badge log pass-bg mr-2">Pass</span>Home page & Queue page validation using dropdown option without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_queue_option_in_the_dropdown()">
+                <span>When The user selects Queue option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="481"><span class="badge log pass-bg mr-2">Pass</span>Home page & Data Structures-Introduction page validation using Get Started button without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_getting_started_button_in_data_structures_introduction_panel()">
+                <span>When The user selects Getting Started button in Data Structures-Introduction panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="499"><span class="badge log pass-bg mr-2">Pass</span>Home page & Array page validation using Get Started button without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_the_getting_started_button_in_array_panel()">
+                <span>When The user selects the Getting Started button in Array Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="519"><span class="badge log pass-bg mr-2">Pass</span>Home page & Array page validation using dropdown option without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_array_option_in_the_dropdown()">
+                <span>When The user selects Array option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="541"><span class="badge log pass-bg mr-2">Pass</span>Home page & Linked List page validation using Get Started button without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_the_getting_started_button_in_linked_list_panel()">
+                <span>When The user selects the Getting Started button in Linked List Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="562"><span class="badge log pass-bg mr-2">Pass</span>Home page & Linked List page validation using dropdown option without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_linked_list_option_in_the_dropdown()">
+                <span>When The user selects Linked List option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="580"><span class="badge log pass-bg mr-2">Pass</span>Home page & Tree page validation using Get Started button without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_the_getting_started_button_in_tree_panel()">
+                <span>When The user selects the Getting Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="597"><span class="badge log pass-bg mr-2">Pass</span>Home page & Tree page validation using dropdown option without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_tree_option_in_the_dropdown()">
+                <span>When The user selects Tree option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="622"><span class="badge log pass-bg mr-2">Pass</span>Home page & Stack page validation using Get Started button without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_the_getting_started_button_in_stack_panel()">
+                <span>When The user selects the Getting Started button in Stack Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="642"><span class="badge log pass-bg mr-2">Pass</span>Home page & Stack page validation using dropdown option without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_stack_option_in_the_dropdown()">
+                <span>When The user selects Stack option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="666"><span class="badge log pass-bg mr-2">Pass</span>Home page & Graph page validation using Get Started button without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_the_getting_started_button_in_graph_panel()">
+                <span>When The user selects the Getting Started button in Graph Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="683"><span class="badge log pass-bg mr-2">Pass</span>Home page & Graph validation using dropdown option without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_selects_graph_option_in_the_dropdown()">
+                <span>When The user selects Graph option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_to_login()">
+                <span>Then The user will be get popup to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="702"><span class="badge log pass-bg mr-2">Pass</span>Home page Data structure drop down validation with login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_clicks_data_structure_drop_down_at_top()">
+                <span>When The user clicks Data structure drop down at top</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_get_six_options()">
+                <span>Then The user will get six options</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="725"><span class="badge log pass-bg mr-2">Pass</span>Home page Data structure drop down validation without login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_clicks_data_structure_drop_down_at_top()">
+                <span>When The user clicks Data structure drop down at top</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_get_six_options()">
+                <span>Then The user will get six options</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="751"><span class="badge log pass-bg mr-2">Pass</span>Home page Sign in link validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_clicks_sign_in_link()">
+                <span>When The user clicks Sign in link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_login_page()">
+                <span>Then The user will be directed to login page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="768"><span class="badge log pass-bg mr-2">Pass</span>Home page Register link validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_clicks_register_in_link()">
+                <span>When The user clicks Register in link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_directed_to_register_page()">
+                <span>Then The user will be directed to register page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="791"><span class="badge log pass-bg mr-2">Pass</span>Home page Sign out link validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_enters_home_page()">
+                <span>Given The user enters home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_clicks_sign_out_link()">
+                <span>When The user clicks Sign out link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoHomePage_SD.the_user_will_be_get_popup_logged_out()">
+                <span>Then The user will be get popup logged out</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">MainPage</p>
+            <p class="text-sm">
+              <span>10:12:30 AM</span> / <span>00:00:36:407</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">MainPage</h5>
+<span class='badge badge-success'>10.30.2024 10:12:30 AM</span>
+<span class='badge badge-danger'>10.30.2024 10:13:06 AM</span>
+<span class='badge badge-default'>00:00:36:407</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>Test Successful GetStarted page Launch</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoGetstartedPage_SD.the_user_should_be_in_get_started_page()">
+                <span>When The user should be in GetStarted page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoGetstartedPage_SD.the_user_should_landed_on_the_page_there_should_be_a_message(java.lang.String)">
+                <span>Then The user should landed on the page there should be a message "You are at the right place"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="67"><span class="badge log pass-bg mr-2">Pass</span>Testing Successful Home page launch</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoGetstartedPage_SD.the_user_clicks_the_get_started_button()">
+                <span>When The user clicks the get started button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoGetstartedPage_SD.the_user_should_land_in_home_page_with_and_links(java.lang.String,java.lang.String)">
+                <span>Then The user should land in Home Page with "Register" and "Sign in" links</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Stack page validation</p>
+            <p class="text-sm">
+              <span>10:12:30 AM</span> / <span>00:03:41:434</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Stack page validation</h5>
+<span class='badge badge-success'>10.30.2024 10:12:30 AM</span>
+<span class='badge badge-danger'>10.30.2024 10:16:11 AM</span>
+<span class='badge badge-default'>00:03:41:434</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>Stack page validation using Get Started button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_is_in_home_page_with_sucessful_login()">
+                <span>Given The user is in home page with successful login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_the_getting_started_button_in_stack_panel()">
+                <span>When The user clicks the Getting Started button in Stack Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_should_be_directed_to_page(java.lang.String)">
+                <span>Then The user should be directed to "Stack" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="76"><span class="badge log pass-bg mr-2">Pass</span>Stack page validation using stack dropdown option</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_is_in_home_page_with_sucessful_login()">
+                <span>Given The user is in home page with successful login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_stack_option_in_the_dropdown()">
+                <span>When The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_should_be_directed_to_page(java.lang.String)">
+                <span>Then The user should be directed to "Stack" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="115"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack link validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_stack_option_in_the_dropdown()">
+                <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_operations_in_stack_link()">
+                <span>When The user clicks Operations in stack link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_should_be_directed_to_operations_in_stack_page(java.lang.String)">
+                <span>Then The user should be directed to operations in stack page "Operations in Stack"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="154"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try here button validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_stack_option_in_the_dropdown()">
+                <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_operations_in_stack_link()">
+                <span>And The user clicks Operations in stack link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_on_try_here_button()">
+                <span>When The user clicks on Try here button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_redirect_to_try_editor_page()">
+                <span>Then The user redirect to tryEditor page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="196"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="197"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks Operations in stack link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code to print in excel sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="247"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks Operations in stack link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code to print in excel sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="298"><span class="badge log pass-bg mr-2">Pass</span>Operations in stack Try Editor validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks Operations in stack link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code to print in excel sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="339"><span class="badge log pass-bg mr-2">Pass</span>Implementation link validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_stack_option_in_the_dropdown()">
+                <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_Implementation_link()">
+                <span>When The user clicks Implementation link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_should_be_directed_to_implementation_page(java.lang.String)">
+                <span>Then The user should be directed to implementation page "Implementation"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="376"><span class="badge log pass-bg mr-2">Pass</span>Implementation Try here button validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_stack_option_in_the_dropdown()">
+                <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_Implementation_link()">
+                <span>And The user clicks Implementation link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_on_try_here_button()">
+                <span>When The user clicks on Try here button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_redirect_to_try_editor_page()">
+                <span>Then The user redirect to tryEditor page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="406"><span class="badge log pass-bg mr-2">Pass</span>Implementation Try Editor validation</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="407"><span class="badge log pass-bg mr-2">Pass</span>Implementation Try Editor validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks Implementation link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code to print in excel sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="449"><span class="badge log pass-bg mr-2">Pass</span>Implementation Try Editor validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks Implementation link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code to print in excel sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="502"><span class="badge log pass-bg mr-2">Pass</span>Implementation Try Editor validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks Implementation link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code to print in excel sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="544"><span class="badge log pass-bg mr-2">Pass</span>Applications link validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_stack_option_in_the_dropdown()">
+                <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_Applications_link()">
+                <span>When The user clicks Applications link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_should_be_directed_to_Applications_page(java.lang.String)">
+                <span>Then The user should be directed to Applications page "Applications"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="574"><span class="badge log pass-bg mr-2">Pass</span>Applications Try here button validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_stack_option_in_the_dropdown()">
+                <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_Applications_link()">
+                <span>And The user clicks Applications link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_on_try_here_button()">
+                <span>When The user clicks on Try here button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_redirect_to_try_editor_page()">
+                <span>Then The user redirect to tryEditor page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="613"><span class="badge log pass-bg mr-2">Pass</span>Applications Try Editor validat</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="614"><span class="badge log pass-bg mr-2">Pass</span>Applications Try Editor validat</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks Applications link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code to print in excel sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="660"><span class="badge log pass-bg mr-2">Pass</span>Applications Try Editor validat</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks Applications link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code to print in excel sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="709"><span class="badge log pass-bg mr-2">Pass</span>Applications Try Editor validat</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks Applications link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When The user enter valid python code to print in excel sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks run button scenario</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see the output sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="746"><span class="badge log pass-bg mr-2">Pass</span>Practice Questions link validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_stack_option_in_the_dropdown()">
+                <span>Given The user clicks Stack option in the dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_Applications_link()">
+                <span>And The user clicks Applications link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_clicks_practice_questions_link()">
+                <span>When The user clicks Practice Questions link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoStack_SD.the_user_should_redirect_to_practice_questions_page()">
+                <span>Then The user should redirect to Practice Questions page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Data Structure Introduction page validation</p>
+            <p class="text-sm">
+              <span>10:12:30 AM</span> / <span>00:01:50:267</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Data Structure Introduction page validation</h5>
+<span class='badge badge-success'>10.30.2024 10:12:30 AM</span>
+<span class='badge badge-danger'>10.30.2024 10:14:20 AM</span>
+<span class='badge badge-default'>00:01:50:267</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="17"><span class="badge log pass-bg mr-2">Pass</span>Data Structure page validation using Get Started button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoDataStructureIntro_SD.the_user_is_in_home_page_after_login()">
+                <span>Given The user is in home page after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoDataStructureIntro_SD.the_user_clicks_the_getting_started_button_in_data_structures_introduction_panel()">
+                <span>When The user clicks the Getting Started button in Data Structures-Introduction panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoDataStructureIntro_SD.the_user_should_be_directed_to_data_structure_page(java.lang.String)">
+                <span>Then The user should be directed to data structure "Data Structures-Introduction" Page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="73"><span class="badge log pass-bg mr-2">Pass</span>Time Complexity link validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoDataStructureIntro_SD.the_user_clicks_the_getting_started_button_in_data_structures_introduction_panel()">
+                <span>Given The user clicks the Getting Started button in Data Structures-Introduction panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoDataStructureIntro_SD.the_user_clicks_time_complexity_link()">
+                <span>When The user clicks Time Complexity link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoDataStructureIntro_SD.the_user_should_be_directed_to_time_complexity_page(java.lang.String)">
+                <span>Then The user should be directed to Time Complexity "Time Complexity" page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="118"><span class="badge log pass-bg mr-2">Pass</span>Implementation Time Complexity Try here button validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="sd.DSAlgoDataStructureIntro_SD.the_user_clicks_the_getting_started_button_in_data_structures_introduction_panel()">
+                <span>Given The user clicks the Getting Started button in Data Structures-Introduction panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoDataStructureIntro_SD.the_user_clicks_time_complexity_link()">
+                <span>And The user clicks Time Complexity link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoDataStructureIntro_SD.the_user_clicks_on_time_complexity_try_here_button()">
+                <span>When The user clicks on time complexity Try here button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="sd.DSAlgoDataStructureIntro_SD.the_user_redirect_to_time_complexity_try_editor_page()">
+                <span>Then The user redirect to time complexity tryEditor page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="158"><span class="badge log pass-bg mr-2">Pass</span>Implementation of Excel Try Editor validation</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="159"><span class="badge log pass-bg mr-2">Pass</span>Implementation of Excel Try Editor validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user clicks the Getting Started button in Data Structures-Introduction panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks Time Complexity link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on time complexity Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When enter a python code from the given excel sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see output in console sheetname "Python" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="231"><span class="badge log pass-bg mr-2">Pass</span>Implementation of Excel Try Editor validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user clicks the Getting Started button in Data Structures-Introduction panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks Time Complexity link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on time complexity Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When enter a python code from the given excel sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see output in console sheetname "Python" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="316"><span class="badge log pass-bg mr-2">Pass</span>Implementation of Excel Try Editor validation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given The user clicks the Getting Started button in Data Structures-Introduction panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks Time Complexity link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on time complexity Try here button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When enter a python code from the given excel sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User is able to see output in console sheetname "Python" and rownumber 2</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">7</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">@DataStructure</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@DataStructure</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='17'>Data Structure page validation using Get Started button</a>
+<div class="">
+<span class="badge badge-default">Data Structure Introduction page validation.Data Structure page validation using Get Started button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='73'>Time Complexity link validation</a>
+<div class="">
+<span class="badge badge-default">Data Structure Introduction page validation.Time Complexity link validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='118'>Implementation Time Complexity Try here button validation</a>
+<div class="">
+<span class="badge badge-default">Data Structure Introduction page validation.Implementation Time Complexity Try here button validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='159'>Implementation of Excel Try Editor validation</a>
+<div class="">
+<span class="badge badge-default">Data Structure Introduction page validation.Implementation of Excel Try Editor validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='231'>Implementation of Excel Try Editor validation</a>
+<div class="">
+<span class="badge badge-default">Data Structure Introduction page validation.Implementation of Excel Try Editor validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='316'>Implementation of Excel Try Editor validation</a>
+<div class="">
+<span class="badge badge-default">Data Structure Introduction page validation.Implementation of Excel Try Editor validation</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@main</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@main</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='9'>Test Successful GetStarted page Launch</a>
+<div class="">
+<span class="badge badge-default">MainPage.Test Successful GetStarted page Launch</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='67'>Testing Successful Home page launch</a>
+<div class="">
+<span class="badge badge-default">MainPage.Testing Successful Home page launch</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>25</span>
+</span>
+<p class="name">@queue</p>
+<p class="duration text-sm">25 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@queue</h4>
+<span status="pass" class='badge log pass-bg'>25 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Queue page validation using Get Started button</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Queue page validation using Get Started button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='64'>Queue page validation link land in correct page</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Queue page validation link land in correct page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='109'>Queue page validation link land in correct page</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Queue page validation link land in correct page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:13 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='133'>Queue page validation link land in correct page</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Queue page validation link land in correct page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:27 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='189'>Queue page validation link land in correct page</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Queue page validation link land in correct page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='219'>Queue page validation link land in correct page</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Queue page validation link land in correct page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:52 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='262'>Queue page validation link land in correct page</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Queue page validation link land in correct page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='295'>Queue page validation link land in correct page</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Queue page validation link land in correct page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:13 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='335'>Queue page validation link land in correct page</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Queue page validation link land in correct page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:23 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='373'>Try here button validation</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Try here button validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='403'>Try here button validation</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Try here button validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='437'>Try here button validation</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Try here button validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:52 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='469'>Try here button validation</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Try here button validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:02 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='511'>Operations in stack Try Editor validation----Implementation of Queue in Python</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Operations in stack Try Editor validation----Implementation of Queue in Python</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='559'>Operations in stack Try Editor validation----Implementation of Queue in Python</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Operations in stack Try Editor validation----Implementation of Queue in Python</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='605'>Operations in stack Try Editor validation----Implementation of Queue in Python</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Operations in stack Try Editor validation----Implementation of Queue in Python</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='648'>Operations in stack Try Editor validation----Implementation using collections.deque</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Operations in stack Try Editor validation----Implementation using collections.deque</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:48 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='693'>Operations in stack Try Editor validation----Implementation using collections.deque</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Operations in stack Try Editor validation----Implementation using collections.deque</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='737'>Operations in stack Try Editor validation----Implementation using collections.deque</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Operations in stack Try Editor validation----Implementation using collections.deque</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='782'>Operations in stack Try Editor validation----Implementation using array</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Operations in stack Try Editor validation----Implementation using array</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='809'>Operations in stack Try Editor validation----Implementation using array</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Operations in stack Try Editor validation----Implementation using array</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='822'>Operations in stack Try Editor validation----Implementation using array</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Operations in stack Try Editor validation----Implementation using array</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:31 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='836'>Operations in stack Try Editor validation----Queue Operations</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Operations in stack Try Editor validation----Queue Operations</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:37 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='849'>Operations in stack Try Editor validation----Queue Operations</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Operations in stack Try Editor validation----Queue Operations</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='862'>Operations in stack Try Editor validation----Queue Operations</a>
+<div class="">
+<span class="badge badge-default">Queue page validation.Operations in stack Try Editor validation----Queue Operations</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@validCredentials</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@validCredentials</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='5'>login with valid credential</a>
+<div class="">
+<span class="badge badge-default">Signin validation.login with valid credential</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>16</span>
+</span>
+<p class="name">@Home_unsucesslogin</p>
+<p class="duration text-sm">16 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Home_unsucesslogin</h4>
+<span status="pass" class='badge log pass-bg'>16 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:43 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='441'>Home page & Queue page validation using Get Started button without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Queue page validation using Get Started button without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:48 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='459'>Home page & Queue page validation using dropdown option without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Queue page validation using dropdown option without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='481'>Home page & Data Structures-Introduction page validation using Get Started button without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Data Structures-Introduction page validation using Get Started button without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='499'>Home page & Array page validation using Get Started button without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Array page validation using Get Started button without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='519'>Home page & Array page validation using dropdown option without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Array page validation using dropdown option without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:09 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='541'>Home page & Linked List page validation using Get Started button without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Linked List page validation using Get Started button without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='562'>Home page & Linked List page validation using dropdown option without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Linked List page validation using dropdown option without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='580'>Home page & Tree page validation using Get Started button without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Tree page validation using Get Started button without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:25 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='597'>Home page & Tree page validation using dropdown option without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Tree page validation using dropdown option without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='622'>Home page & Stack page validation using Get Started button without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Stack page validation using Get Started button without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='642'>Home page & Stack page validation using dropdown option without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Stack page validation using dropdown option without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:40 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='666'>Home page & Graph page validation using Get Started button without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Graph page validation using Get Started button without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:45 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='683'>Home page & Graph validation using dropdown option without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Graph validation using dropdown option without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:58 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='725'>Home page Data structure drop down validation without login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page Data structure drop down validation without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:03 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='751'>Home page Sign in link validation</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page Sign in link validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:09 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='768'>Home page Register link validation</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page Register link validation</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>15</span>
+</span>
+<p class="name">@Home_sucesslogin</p>
+<p class="duration text-sm">15 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Home_sucesslogin</h4>
+<span status="pass" class='badge log pass-bg'>15 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='7'>Home page & Stack page validation using Get Started button</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Stack page validation using Get Started button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='70'>Home page & Stack page validation using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Stack page validation using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='112'>Home page & Data Structure page validation using Get Started button</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Data Structure page validation using Get Started button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='144'>Home page & Array page validation using Get Started button</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Array page validation using Get Started button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:24 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='175'>Home page & Array page validation using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Array page validation using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='203'>Home page & Linked List page validation using Get Started button</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Linked List page validation using Get Started button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:43 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='235'>Home page & Linked List page validation using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Linked List page validation using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:52 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='265'>Home page & Graph page validation using Get Started button</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Graph page validation using Get Started button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:00 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='292'>Home page & Graph page validation using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Graph page validation using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='321'>Home page & Tree page validation using Get Started button</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Tree page validation using Get Started button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='358'>Home page & Tree page validation using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Tree page validation using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='386'>Home page & Queue page validation using Get Started button</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Queue page validation using Get Started button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='417'>Home page & Queue page validation using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page & Queue page validation using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='702'>Home page Data structure drop down validation with login</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page Data structure drop down validation with login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='791'>Home page Sign out link validation</a>
+<div class="">
+<span class="badge badge-default">Home page validation.Home page Sign out link validation</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>18</span>
+</span>
+<p class="name">@test</p>
+<p class="duration text-sm">18 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@test</h4>
+<span status="pass" class='badge log pass-bg'>18 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='11'>Stack page validation using Get Started button</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Stack page validation using Get Started button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='76'>Stack page validation using stack dropdown option</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Stack page validation using stack dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='115'>Operations in stack link validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Operations in stack link validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='154'>Operations in stack Try here button validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Operations in stack Try here button validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='197'>Operations in stack Try Editor validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Operations in stack Try Editor validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:13:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='247'>Operations in stack Try Editor validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Operations in stack Try Editor validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='298'>Operations in stack Try Editor validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Operations in stack Try Editor validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='339'>Implementation link validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Implementation link validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:24 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='376'>Implementation Try here button validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Implementation Try here button validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='407'>Implementation Try Editor validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Implementation Try Editor validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='449'>Implementation Try Editor validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Implementation Try Editor validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:14:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='502'>Implementation Try Editor validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Implementation Try Editor validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:09 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='544'>Applications link validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Applications link validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='574'>Applications Try here button validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Applications Try here button validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='614'>Applications Try Editor validat</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Applications Try Editor validat</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='660'>Applications Try Editor validat</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Applications Try Editor validat</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:15:52 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='709'>Applications Try Editor validat</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Applications Try Editor validat</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:16:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='746'>Practice Questions link validation</a>
+<div class="">
+<span class="badge badge-default">Stack page validation.Practice Questions link validation</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Oct 30, 2024 10:12:29 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Oct 30, 2024 10:16:49 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>6</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>6</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>83</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>358</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Queue page validation":258.646,"Signin validation":19.395,"Home page validation":228.624,"MainPage":36.407,"Stack page validation":221.434,"Data Structure Introduction page validation":110.267
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@DataStructure</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@main</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@queue</td>
+<td>25</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@validCredentials</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Home_unsucesslogin</td>
+<td>16</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Home_sucesslogin</td>
+<td>15</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@test</td>
+<td>18</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 6,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 83,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 358,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

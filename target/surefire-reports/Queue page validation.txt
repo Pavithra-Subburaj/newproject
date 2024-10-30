@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Queue page validation
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 259.136 s - in Queue page validation
